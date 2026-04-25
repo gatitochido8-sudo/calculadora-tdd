@@ -24,5 +24,3 @@ def test_raiz():
 
 def test_exponencial():
     assert abs(exponencial(1) - 2.718) < 1e-2
-
-test: agregar pruebas de la calculadora
