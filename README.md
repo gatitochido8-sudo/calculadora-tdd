@@ -18,7 +18,6 @@ Esta aplicación implementa una calculadora científica utilizando la metodolog�
 - Función exponencial mediante serie de Taylor
 
 ## Estructura del proyecto
-
 ```text
 calculadora-tdd/
 ├── src/
