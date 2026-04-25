@@ -40,4 +40,3 @@ def exponencial(x, tolerancia=1e-3):
         n += 1
 
     return resultado
-    fix: corrección de funciones y estructura del código
