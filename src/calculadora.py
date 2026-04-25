@@ -34,3 +34,5 @@ def exponencial(x, tolerancia=1e-3):
         n += 1
 
     return resultado
+
+feat: corrección de funciones en Python
