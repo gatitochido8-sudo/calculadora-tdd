@@ -1,16 +1,22 @@
+# test suma
 def suma(a, b):
     return a + b
 
+# test resta
 def resta(a, b):
     return a - b
-    
+
+# test multiplicacion
 def multiplicacion(a, b):
     return a * b
+
+# test division
 def division(a, b):
     if b == 0:
         raise ValueError("No se puede dividir entre cero")
     return a / b
 
+# test raiz cuadrada
 def raiz_cuadrada(x, tolerancia=1e-3):
     if x < 0:
         raise ValueError("No existe raíz de número negativo")
@@ -22,6 +28,7 @@ def raiz_cuadrada(x, tolerancia=1e-3):
             return nueva
         estimacion = nueva
 
+# test exponencial
 def exponencial(x, tolerancia=1e-3):
     resultado = 1
     termino = 1
@@ -33,5 +40,4 @@ def exponencial(x, tolerancia=1e-3):
         n += 1
 
     return resultado
-
-feat: corrección de funciones en Python
+    fix: corrección de funciones y estructura del código
